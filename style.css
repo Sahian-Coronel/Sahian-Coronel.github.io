@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Shadows+Into+Light&display=swap");
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: hsl(159, 33%, 88%);
+  width: 100%;
+  height: 150px;
+}
+
+img {
+  width: 250px;
+}
+
+h1 {
+  font-size: 24px;
+  color: hsl(0, 3%, 29%);
+  font-family: "Quicksand", sans-serif;
+}
+
+p {
+  font-size: 14px;
+  color: #615959;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0 10px 0;
+  width: 100%;
+  background-color: #81f3da;
+}
+
+.caja {
+  width: 80%;
+  height: 80%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.caja img {
+  border-radius: 50%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+ul li {
+  margin: 10px;
+  font-family: "Quicksand", sans-serif;
+}
+
+header img {
+  display: flex;
+  width: 200px;
+  height: 150px;
+  flex-direction: row;
+}
+
+a:hover {
+  color: rgb(231, 255, 247);
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h2 {
+  font-family: "Quicksand", sans-serif;
+  font-family: "Shadows Into Light", cursive;
+}
+
+h2 {
+  justify-content: center;
+}
